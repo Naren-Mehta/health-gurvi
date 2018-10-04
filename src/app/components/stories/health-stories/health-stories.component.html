@@ -1,0 +1,16 @@
+
+
+
+<div  *ngFor="let blog of fitnessBlogs">
+    <div class="col-sm-6 col-md-4">
+      <div class="thumbnail">
+        <img src="https://cdn.vox-cdn.com/uploads/chorus_image/image/56748793/dbohn_170625_1801_0018.0.0.jpg">
+        <div class="caption">
+          <h4 class="text-success"><strong>{{blog.category | uppercase}}</strong></h4>
+          <h3><a>{{blog.title}}</a></h3>
+          <!-- <p [innerText]="blog.summary"></p> -->
+          <p>{{blog.summary.length > 200 ? (blog.summary | slice :0:200) + "..." : (blog.summary)}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
