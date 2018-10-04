@@ -25,6 +25,24 @@ export class AboutusComponent implements OnInit {
       name:"Prema",
       designation : "UI Lead",
       summary:"You just imagin, I will make it visible"
+    },
+    {
+      id:4,
+      name:"Narendra Mehta",
+      designation : "CEO & Founder",
+      summary:"Always look forword to learn new technologies"
+    },
+    {
+      id:5,
+      name:"Deepak Kasgar",
+      designation : "Project Manager",
+      summary:"Love to solve technical chanlenges"
+    },
+    {
+      id:6,
+      name:"Prema",
+      designation : "UI Lead",
+      summary:"You just imagin, I will make it visible"
     }
   ]
 
